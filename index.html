@@ -16,26 +16,28 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#intro">Intro Video</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">Anshita Mittal</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span></span><span></span><span></span>
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#intro" onclick="toggleMenu()">Intro Video</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/anshuC.jpg" alt="profile picture" />
@@ -45,23 +47,11 @@
         <h1 class="title">Anshita Mittal</h1>
         <p class="section__text__p2">Chartered Accountant</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/anshitamittal8289/'"
-          />
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/anshitamittal8289/'" />
         </div>
       </div>
     </section>
@@ -71,37 +61,32 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img src="./assets/anshuBW.jpg" alt="Profile picture" class="about-pic" />
+          <img src="./assets/anshuBW.jpg" alt="Profile" class="about-pic" />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <img src="./assets/experience.png" alt="Experience" class="icon" />
               <h3>Experience</h3>
-              <p>3 years Articleship <br /> Mahesh Deora & Co. <br />(Mar 2021 - Mar 2024)</p>
+              <p>3 years Articleship<br />Mahesh Deora & Co.<br />(Mar 2021 - Mar 2024)</p>
             </div>
             <div class="details-container">
-              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <img src="./assets/education.png" alt="Education" class="icon" />
               <h3>Education</h3>
-              <p>
-                CA Final – May 2025 (53.5%)<br/>
-                CA Inter – Nov 2020 (55.87%, 1st Attempt, 3 Exemptions)<br/>
-                CA Foundation – Nov 2019 (78.75%, AIR 49)<br/>
-                B.Com – 2022 (61.5%)<br/>
-                Class XII – 2019 (91.4%)<br/>
-              </p>
+              <p>CA Final – May 2025 (53.5%)<br />CA Inter – Nov 2020 (55.87%)<br />CA Foundation – Nov 2019 (78.75%, AIR 49)<br />B.Com – 2022 (61.5%)<br />Class XII – 2019 (91.4%)<br />NISM Series XV Certified Research Analyst</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Qualified Chartered Accountant with robust experience in Risk Advisory, Financial Reporting,
-              and Audit. Delivered impactful results across 10+ sectors. Passionate about leveraging analytical 
-              thinking, finance acumen, and collaborative efforts to drive business improvements and governance.
+              Qualified Chartered Accountant with robust experience in Financial Analysis, Risk Advisory,
+              Capital Budgeting, Auditing, and Taxation. Demonstrated ability in financial reporting,
+              client handling, and building insightful dashboards. Adept at cross-functional collaboration
+              with strong presentation and business consultancy skills.
             </p>
           </div>
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+      <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
 
     <section id="experience">
@@ -112,27 +97,46 @@
           <div class="details-container">
             <h2 class="experience-sub-title">Skills</h2>
             <div class="article-container">
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Audit Management</h3><p>Experienced</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Due Diligence</h3><p>Experienced</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Financial Reporting</h3><p>Experienced</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Taxation</h3><p>Intermediate</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Cost Analysis</h3><p>Experienced</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Client Advisory</h3><p>Experienced</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Financial Analysis</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Auditing</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Financial Reporting</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Business Consultancy</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Ratio Analysis</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Risk Management</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Finance</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Capital Budgeting</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Budgeting & Forecasting</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Taxation</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Client Handling</h3></div></article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Software Skills</h2>
+            <h2 class="experience-sub-title">Technical Skills</h2>
             <div class="article-container">
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>MS Excel & Tools</h3><p>Advanced</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Tally Solutions</h3><p>Advanced</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>SAP</h3><p>Intermediate</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Power BI</h3><p>Intermediate</p></div></article>
-              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>IDEA</h3><p>Intermediate</p></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>MS Excel & Tools</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Tally Solutions</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>SAP</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Power BI</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>IDEA</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Financial Modeling</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Reporting</h3></div></article>
+              <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Presentation</h3></div></article>
             </div>
           </div>
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+      <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="intro">
+      <p class="section__text__p1">Watch My</p>
+      <h1 class="title">Video Introduction</h1>
+      <div class="video-container" style="text-align:center">
+        <video controls width="70%">
+          <source src="./assets/intro-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </section>
 
     <section id="projects">
@@ -146,8 +150,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Financial Modeling</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Link</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn">Link</button>
+              <button class="btn btn-color-2 project-btn">Live Demo</button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -156,8 +160,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Power BI Dashboard</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Link</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn">Link</button>
+              <button class="btn btn-color-2 project-btn">Live Demo</button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -166,13 +170,13 @@
             </div>
             <h2 class="experience-sub-title project-title">Jubilant FoodWorks Analysis</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Link</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn">Link</button>
+              <button class="btn btn-color-2 project-btn">Live Demo</button>
             </div>
           </div>
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+      <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
 
     <section id="contact">
@@ -180,11 +184,11 @@
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <img src="./assets/email.png" alt="Email" class="icon contact-icon email-icon" />
           <p><a href="mailto:anshitamittal3112@gmail.com">anshitamittal3112@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="icon contact-icon" />
           <p><a href="https://www.linkedin.com/in/anshitamittal8289/">LinkedIn</a></p>
         </div>
       </div>
@@ -197,6 +201,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#intro">Intro Video</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
